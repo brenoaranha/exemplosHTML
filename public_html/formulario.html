@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <link rel="stylesheet" href="estilos/meuestilo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="" action="">
+            <table>
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td><input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required></td>
+                </tr>
+                <tr>
+                    <td><label for="idade">Idade:</label></td>
+                    <td><input type="number" name="idade" id="idade" min="18" max="90"></td>
+                </tr>
+                <tr>
+                    <td><label for="satisfacao">Satisfação:</label></td>
+                    <td><input type="range" name="satisfacao" id="satisfacao" value="5" min="0" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="data-agendamento">Data do Agendamento:</label></td>
+                    <td><input type="date" name="data-agendamento" id="data-agendamento"></td>
+                </tr>
+                <tr>
+                    <td><label for="hora-agendamento">Hora do Agendamento:</label></td>
+                    <td><input type="time" name="hora-agendamento" id="hora-agendamento"></td>
+                </tr>
+                <tr>
+                    <td><label for="endereco">Endereço:</label></td>
+                    <td><input type="text" name="endereco" id="endereco"></td>
+                </tr>
+                <tr>
+                    <td><label for="cidade">Cidade:</label></td>
+                    <td><select name="cidade" id="cidade">
+                            <option disabled selected>Escolha uma Cidade</option>
+                        <optgroup label="Rio Grande do Norte">
+                            <option value="natal">Natal</option>
+                            <option value="mossoro">Mossoró</option>
+                        </optgroup>
+                        <optgroup label="Paraiba">
+                            <option value="jampa">João Pessoa</option>
+                            <option value="campina">Campina Grande</option>
+                        </optgroup>
+                        <optgroup label="Pernambuco">
+                            <option value="recife">Recife</option>
+                            <option value="petrolina">Petrolina</option>
+                        </optgroup>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sexo">Sexo:</label></td>
+                    <td><label><input type="radio" name="sexo" value="mascolino" id="sexo" > Mascolino</label>
+                        <label><input type="radio" name="sexo" value="femininos"> Feminino</label>
+                        <label><input type="radio" name="sexo" value="outros"checked> Outros</label></td>
+                </tr>
+                <tr>
+                    <td><label for="interesse">Interesse:</label></td>
+                    <td><label><input type="checkbox" name="interesse" value="futebol" > Futebol</label>
+                        <label><input type="checkbox" name="interesse" value="livros"> Livros</label>
+                        <label><input type="checkbox" name="interesse" value="filmes"> Filmes</label>
+                        <label><input type="checkbox" name="interesse" value="praia" > Praia</label>
+                        <label><input type="checkbox" name="interesse" value="Festas"> Festas</label>
+                        <label><input type="checkbox" name="interesse" value="outros"checked> Outros</label></td>
+                </tr>
+                <tr>
+                    <td><label for="telefone">Telefone:</label></td>
+                    <td><input type="number" name="telefone" id="telefone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="sugestao">Sugestão:</label></td>
+                    <td><textarea name="sugestao" id="sugestao" style="resize: none" maxlength="140" cols="60" rows="10" placeholder="Deixe aqui sua sugestão..."></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        <input type="button" value="Exibir"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

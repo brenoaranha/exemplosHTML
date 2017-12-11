@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eleição Lider da Sala</title>
+        <link rel="stylesheet" href="estilos/meuestilo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#b3d9ff">
+        <h1><p align="center" style="font-family: arial">Eleição do Lider da Sala</p></h1>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <form method="" action="">
+            <table align="center" width="400" height="100">
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td><input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required></td>
+                </tr>
+                <tr>
+                    <td><label for="idade">Idade:</label></td>
+                    <td><input type="number" name="idade" id="idade" min="18" max="90"></td>
+                </tr>
+                <tr>
+                    <td><label for="sexo">Sexo:</label></td>
+                    <td><label><input type="radio" name="sexo" value="masculino" id="sexo" > Masculino</label>
+                        <label><input type="radio" name="sexo" value="femininos">Feminino</label>
+                        <label><input type="radio" name="sexo" value="outros" checked>Outros</label></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="data-agendamento">Data da votação:</label></td>
+                    <td><input type="date" name="data-agendamento" id="data-agendamento"></td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <br>
+        <form method="" action="">
+            <table align="center">
+                <tr>
+                    <td><label for="lider">Lider:</label></td>
+                    <td><select name="lider" id="lider">
+                            <option disabled selected>Escolha um candidato</option>
+                            <option value="Paulo">Paulo</option>
+                            <option value="Eduardo">Eduardo</option>
+                            <option value="Leandro">Leandro</option>
+                            <option value="Iran">Iran</option>
+                            <option value="Renato">Renato</option>
+                            <option value="Ramon">Ramon</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="vice-lider">Vice-Lider:</label></td>
+                    <td><select name="vicelider" id="vice-lider">
+                            <option disabled selected>Escolha um candidato</option>
+                            <option value="Paulo">Paulo</option>
+                            <option value="Eduardo">Eduardo</option>
+                            <option value="Leandro">Leandro</option>
+                            <option value="Iran">Iran</option>
+                            <option value="Renato">Renato</option>
+                            <option value="Ramon">Ramon</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="secretario">Secretário:</label></td>
+                    <td><select name="secretario" id="secretario">
+                            <option disabled selected>Escolha um candidato</option>
+                            <option value="Paulo">Paulo</option>
+                            <option value="Eduardo">Eduardo</option>
+                            <option value="Leandro">Leandro</option>
+                            <option value="Iran">Iran</option>
+                            <option value="Renato">Renato</option>
+                            <option value="Ramon">Ramon</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tesoureiro">Tesoureiro:</label></td>
+                    <td><select name="tesoureiro" id="tesoureiro">
+                            <option disabled selected>Escolha um candidato</option>
+                            <option value="Paulo">Paulo</option>
+                            <option value="Eduardo">Eduardo</option>
+                            <option value="Leandro">Leandro</option>
+                            <option value="Iran">Iran</option>
+                            <option value="Renato">Renato</option>
+                            <option value="Ramon">Ramon</option>
+                    </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <p align="center"><input type="submit" onclick="alert('Votação Concluída!')" value="Votar"></p>    
+        </form>    
+    </body>
+</html>

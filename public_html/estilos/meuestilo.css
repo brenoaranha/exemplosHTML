@@ -1,0 +1,33 @@
+body{
+    background-color: #004d00;
+    color: yellow;
+}
+
+input, textArea, select {
+    color: yellow;
+    background-color: #004d00;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+textArea {
+    background-image: url("camu.jpg");
+}
+
+.sexo {
+    color: pink;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#topo {
+    font-family: "Courier";
+    font-weight: bold;
+    font-size: 40pt;
+}
+
+h4 {
+    font-family: "Courier";
+    text-decoration: underline;
+}
+

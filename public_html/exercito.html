@@ -1,0 +1,57 @@
+<html>
+  <head>
+  <title>Eleição Lider da Sala</title>
+  <link rel="stylesheet" href="estilos/meuestilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body bgcolor="#b3d9ff">
+      <h1><p id="topo" align="center"">
+  <img src="brasao.jpg" width="100" height="100">
+
+  EXÉRCITO BRASILEIRO
+
+  <img src="brasao.jpg" width="100" height="100">
+  </p></h1>
+
+<hr>
+<h4><p align="center">Informações Pessoais</p></h4>
+  <form method="" action="">
+  <table align="center" width="400" height="100">
+  <tr>
+  <td><label for="nome">Nome:</label></td>
+  <td><input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required></td>
+  </tr>
+  <tr>
+  <td><label for="endereco">Endereço:</label></td>
+  <td><input type="text" name="endereco" id="endereco" placeholder="Seu endereço aqui..." required></td>
+  </tr>
+  <tr>
+  <td><label for="idade">Idade:</label></td>
+  <td><input type="number" name="idade" id="idade" min="18" max="90"></td>
+  </tr>
+  <tr>
+  <td><label for="sexo">Sexo:</label></td>
+  <td><label><input type="radio" name="sexo" value="masculino"> Masculino</label>
+      <label><input type="radio" name="sexo" value="femininos">Feminino</label>
+
+  </tr>
+  <tr>
+  <td><label for="email">E-mail:</label></td>
+  <td><input type="text" name="email" id="email"></td>
+  </tr>
+  <tr>
+  <td><label for="data-nascimento">Data de Nascimento:</label></td>
+  <td><input type="date" name="data-nascimento" id="data-nascimento"></td>
+  </tr>
+  <tr>
+                    <td><label for="mensagem">Mensagem:</label></td>
+                    <td><textarea name="mensagem" id="mensagem" style="resize: none" maxlength="100" cols="50" rows="5" placeholder="Deixe aqui sua mensagem..."></textarea></td>
+                </tr>
+  </table>
+  </form>
+<br>
+<hr>
+<p  align="center"><input type="submit" onclick="alert('Envio Concluído!')" value="ENVIAR"></p>
+  </body>
+</html>
